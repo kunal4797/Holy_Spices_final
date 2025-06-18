@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Holy Spices - Premium Spices Website",
   "scripts": {
-    "dev": "serve -s 'Holy Spices'",
+    "dev": "serve -s \"Holy Spices\"",
     "build": "echo 'Build step completed'",
-    "start": "serve -s 'Holy Spices'"
+    "start": "serve -s \"Holy Spices\"",
+    "vercel-build": "echo 'Vercel build completed'"
   },
   "dependencies": {
     "serve": "^14.2.0"
